@@ -90,3 +90,5 @@ União de branches
 VI) Extras
 gitignore: serve para ignorar arquivos que não devem aparecer como untracked
        deve criar um arquivo chamado ".gitignore", onde foi especificar quais arquivos devem ser ignorados. Pode ser arquivo a arquivo, ou usar *.txt por exemplo
+
+https://github.com/github/gitignore > site com templates que podem ser ignorados por cada aplicação e linguagem
