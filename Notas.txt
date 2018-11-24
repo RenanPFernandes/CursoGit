@@ -78,5 +78,5 @@ Criando um branch
     git chechkout NOMEdoBRANCH: muda o local de trabalho para o NOMEdoBRANCH
     git branch -D NOMEdoBRANCH: deleta o branch
 União de branches
-    Merge:
+    Merge: teste
     Rebase:
