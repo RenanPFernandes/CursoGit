@@ -1,0 +1,27 @@
+Git e GitHub
+
+Git faz snapshot de todos os arquivos em cada versão, ao contrário do SVN que guarda as difs entre cada versão
+Git nasceu para versionamento do Linux, após quebra com a BitKeeper
+Git config - Geral
+Git config user - Usuário
+Git config projeto - Projeto
+
+File Lifecycle
+Untracked: arquivo acabou de ser adicionado no repositório, mas ainda não foi visto pelo Git. Não foi dado o commit?
+Unmodified: arquivo já commitado e parte do repositório, sem alterações quando comparado com o que está no repositório do Git
+Modified: arquivo do repositório com modificações
+Staged: área onde será criada a versão quando for dado o commit, tipo aquela lista de checagem de modificaçoes que o SVN tem no pré-commit
+
+Untracked > ADD FILE > Unmodified
+Unmodified > REMOVE FILE > Untracked
+Unmodified > EDIT > Modified
+Modified > STAGE FILE > Staged
+Staged > COMMIT > Unmodified
+
+Comandos Git
+git status: status da pasta (semelhante a opção de check for modifications do SVN)
+git add: adiciona um untracked para ser commitado (staging)
+    Se, depois que dei o add em um arquivo, eu modificar esse arquivo sem dar o commit, o que vai ser commitado é a primeira versão, náo as com alterações!!!
+    Para que as modificações sejam commitadas, em vez do arquivo original, precisa dar git add de novo!
+git commit: dá o commit das atuais alterações etc, criando o snapshot
+    -m "Mensagem": para incluir uma mensagem de comentário do commit
