@@ -104,4 +104,4 @@ Criando ALIAS (atalhos de comando)
 
 Tags
 git tag -a 1.0.0 -m "TESTE"
-git push origin master --tags: envia pro GitHub as tags também
+git push origin master --tags: envia pro GitHub as tags também (ficam em Release)
