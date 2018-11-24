@@ -24,4 +24,10 @@ git add: adiciona um untracked para ser commitado (staging)
     Se, depois que dei o add em um arquivo, eu modificar esse arquivo sem dar o commit, o que vai ser commitado é a primeira versão, náo as com alterações!!!
     Para que as modificações sejam commitadas, em vez do arquivo original, precisa dar git add de novo!
 git commit: dá o commit das atuais alterações etc, criando o snapshot
-    -m "Mensagem": para incluir uma mensagem de comentário do commit
+    1) -m "Mensagem": para incluir uma mensagem de comentário do commit
+    2) [master (root-commit) XXXXXX] Mensagem
+          master (root-commit): local onde foi feito o commit
+          XXXXXXX: número do commit 
+          Mensagem: Comentário do commit
+    3) se der commit sem antes ter dado o add das moficições, emite um erro avisando "Changes not staged for commit"e não faz nada
+    4) 
