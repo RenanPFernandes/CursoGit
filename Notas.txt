@@ -78,5 +78,9 @@ Criando um branch
     git chechkout NOMEdoBRANCH: muda o local de trabalho para o NOMEdoBRANCH
     git branch -D NOMEdoBRANCH: deleta o branch
 União de branches
-    Merge: teste
-    Rebase:
+    Merge: cria um commit extra, juntando os commits de dois branchs
+       Pró: operaçao não destrutiva (não estraga os logs dos branchs)
+       Contra: criação de um commit dummy/inútil e poluição dos logs
+    Rebase: move o commit de um branch para a "fila" dos commits do outro branch, deixando tudo linear (processo de fastfoward). Desse modo, os branchs passam a apontar para o mesmo commit
+       Contra: destrói o commit do branch separado
+       Pró: evita commits extras e log linear
