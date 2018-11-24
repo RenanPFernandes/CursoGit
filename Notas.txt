@@ -42,8 +42,8 @@ git show HASH: mostra mais informações de cada commit identificado pela hashtag 
 git diff: mostra a modificação
     1) --name-only: diz apenas o nome do arquivo modificado
 git checkout ARQUIVO: revert das mudanças aatuais para a versão mais recente do repositório
-git reset HEAD: remove do staged, mas mantém as mudanças realizadas, diferentemente do checkout
-
+git reset HEAD ARQUIVO: remove o arquivo do staged, mas mantém as mudanças realizadas, diferentemente do checkout
+    1) Se não colocar o ARQUIVO, ele faz o reset HEAD para todos os arquivos da pasta
 
 
 
