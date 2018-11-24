@@ -81,6 +81,7 @@ União de branches
     Merge: cria um commit extra, juntando os commits de dois branchs
        Pró: operaçao não destrutiva (não estraga os logs dos branchs)
        Contra: criação de um commit dummy/inútil e poluição dos logs
+       git merge NOMEdoBRANCH: comando dado no branch que se deseja juntar tudo (o master por exemplo) e que faz o merge com o NOMEdoBRANCH
     Rebase: move o commit de um branch para a "fila" dos commits do outro branch, deixando tudo linear (processo de fastfoward). Desse modo, os branchs passam a apontar para o mesmo commit
-       Contra: destrói o commit do branch separado
+       Contra: perde ordem cronológica
        Pró: evita commits extras e log linear
