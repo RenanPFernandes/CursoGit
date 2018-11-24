@@ -101,3 +101,7 @@ git stash clear: deleta os stashes
 Criando ALIAS (atalhos de comando)
        git config --global alias.NOME COMANDO: salva no alias NOME o COMANDO
        exemplo: git config --global alias.s status
+
+Tags
+git tag -a 1.0.0 -m "TESTE"
+git push origin master --tags: envia pro GitHub as tags também
