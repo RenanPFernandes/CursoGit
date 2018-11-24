@@ -113,3 +113,4 @@ git tag -d 1.0: deleta a tag 1.0
 
 Apagando tag e branchs remotos
 git push origin :1.0.1 > deleta a tag 1.0.1 no GitHub
+git push origin :NOMEdoBRANCH > deleta o branch no GitHub
