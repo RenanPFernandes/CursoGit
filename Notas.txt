@@ -92,3 +92,8 @@ gitignore: serve para ignorar arquivos que não devem aparecer como untracked
        deve criar um arquivo chamado ".gitignore", onde foi especificar quais arquivos devem ser ignorados. Pode ser arquivo a arquivo, ou usar *.txt por exemplo
 
 https://github.com/github/gitignore > site com templates que podem ser ignorados por cada aplicação e linguagem
+
+git stash: salva as alterações atuais para commit futuro.
+git stach apply: retorna as alterações salvas no stash
+git stash list: lista dos stasheds
+git stash clear: deleta os stashes
