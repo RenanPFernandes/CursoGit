@@ -32,3 +32,10 @@ git commit: dá o commit das atuais alterações etc, criando o snapshot
     3) se der commit sem antes ter dado o add das moficições, emite um erro avisando "Changes not staged for commit"e não faz nada
     4) 
 git log: emite o log dos commits do projeto
+    1) Apresenta a Hash do Commit, o autor, data e comentário
+    2) --decorate: mais informações, como tags e branches
+    3) --author="Name": filtrar apenas commits de um autor
+    4) git shortlog: informaçoes da quantidade de commits de cada autor, de cada commit etc
+       git shortlog - sn: autor e quantidade de commits
+    5) --graph: mostra em forma gráfica branches, versões e trunk
+git show HASH: mostra mais informações de cada commit identificado pela hashtag do commit
