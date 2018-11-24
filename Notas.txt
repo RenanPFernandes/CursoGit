@@ -61,4 +61,6 @@ Acessando o repositório remoto do GitHub
     git remote add origin git@github.com:RenanPFernandes/CursoGit.git (tem que ser feito na pasta do repositório local do Git)
 Passando o repositório local para o GitHub
     git push -u origin master: envia todo o log e todos os arquivos do repositório local para o remoto
+Subindo modificações para o GitHub
+    
 
