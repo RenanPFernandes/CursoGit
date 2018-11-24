@@ -1,12 +1,13 @@
 Git e GitHub
 
+I) Introdução
 Git faz snapshot de todos os arquivos em cada versão, ao contrário do SVN que guarda as difs entre cada versão
 Git nasceu para versionamento do Linux, após quebra com a BitKeeper
 Git config - Geral
 Git config user - Usuário
 Git config projeto - Projeto
 
-File Lifecycle
+II) File Lifecycle
 Untracked: arquivo acabou de ser adicionado no repositório, mas ainda não foi visto pelo Git. Não foi dado o commit?
 Unmodified: arquivo já commitado e parte do repositório, sem alterações quando comparado com o que está no repositório do Git
 Modified: arquivo do repositório com modificações
@@ -18,7 +19,7 @@ Unmodified > EDIT > Modified
 Modified > STAGE FILE > Staged
 Staged > COMMIT > Unmodified
 
-Comandos Git
+II) Comandos Git
 git status: status da pasta (semelhante a opção de check for modifications do SVN)
 git add: adiciona um untracked para ser commitado (staging)
     Se, depois que dei o add em um arquivo, eu modificar esse arquivo sem dar o commit, o que vai ser commitado é a primeira versão, náo as com alterações!!!
