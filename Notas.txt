@@ -45,5 +45,13 @@ git checkout ARQUIVO: revert das mudanças aatuais para a versão mais recente do 
 git reset HEAD ARQUIVO: remove o arquivo do staged, mas mantém as mudanças realizadas, diferentemente do checkout
     1) Se não colocar o ARQUIVO, ele faz o reset HEAD para todos os arquivos da pasta
 
+CHECKOUT != RESET > Beware!!!! O reset não desfaz as alterações locais, o checkout desfaz
+
+git reset --TYPE HASH: desfaz um commit marcado pela HASH
+    1) --soft: some com o commit da HASH, mantendo o arquivo no staged com as alterações locais
+    2) --mixed: some com o commit da HASH, retirando o arquivo da staged, mas mantendo as alterações locais, ou seja, modified
+    3) --hard: BALEFIRE NO COMMIT!
+
+
 
 
