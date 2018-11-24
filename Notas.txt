@@ -66,4 +66,6 @@ Subindo modificações para o GitHub
 Clonando repositórios remotos (git clone)
     git clone git@github.com:RenanPFernandes/CursoGit.git NovoNomePasta: vai copiar todo o repositório remoto do link para um repositório local
         Esse comando é feito na pasta onde vai ficar o novo repositório (cria a pasta nova automaticamente)
+Fork: pega um projeto que não é meu e faz uma cópia dele pra mim. Permite que eu faça uma cópia de um repositório de outra pessoa, altere ele e depois envie as alteraçõeses para o dono, para que ele possa incluir ou nao as alteracoes
+    Diferente do clone, em que eu só posso fazer de repositórios que eu sou dono.
 
