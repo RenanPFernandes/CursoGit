@@ -19,7 +19,7 @@ Unmodified > EDIT > Modified
 Modified > STAGE FILE > Staged
 Staged > COMMIT > Unmodified
 
-II) Comandos Git
+III) Comandos Git
 git status: status da pasta (semelhante a opção de check for modifications do SVN)
 git add: adiciona um untracked para ser commitado (staging)
     Se, depois que dei o add em um arquivo, eu modificar esse arquivo sem dar o commit, o que vai ser commitado é a primeira versão, náo as com alterações!!!
