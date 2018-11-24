@@ -41,6 +41,8 @@ git log: emite o log dos commits do projeto
 git show HASH: mostra mais informações de cada commit identificado pela hashtag do commit
 git diff: mostra a modificação
     1) --name-only: diz apenas o nome do arquivo modificado
+git checkout ARQUIVO: revert das mudanças aatuais para a versão mais recente do repositório
+git reset HEAD: remove do staged, mas mantém as mudanças realizadas, diferentemente do checkout
 
 
 
