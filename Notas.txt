@@ -39,3 +39,8 @@ git log: emite o log dos commits do projeto
        git shortlog - sn: autor e quantidade de commits
     5) --graph: mostra em forma gráfica branches, versões e trunk
 git show HASH: mostra mais informações de cada commit identificado pela hashtag do commit
+git diff: mostra a modificação
+
+
+
+
