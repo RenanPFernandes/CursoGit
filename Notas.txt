@@ -62,5 +62,6 @@ Acessando o repositório remoto do GitHub
 Passando o repositório local para o GitHub
     git push -u origin master: envia todo o log e todos os arquivos do repositório local para o remoto
 Subindo modificações para o GitHub
-    
+    git push origin master: envia as alteraçoes do repositorio local master para o remoto origin
+
 
