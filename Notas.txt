@@ -69,3 +69,14 @@ Clonando repositórios remotos (git clone)
 Fork: pega um projeto que não é meu e faz uma cópia dele pra mim. Permite que eu faça uma cópia de um repositório de outra pessoa, altere ele e depois envie as alteraçõeses para o dono, para que ele possa incluir ou nao as alteracoes
     Diferente do clone, em que eu só posso fazer de repositórios que eu sou dono.
 
+V) Branches
+Definição: ponteiro móvel que leva para um commit
+master = trunk
+Criando um branch
+    git checkout -b NOMEdoBRANCH: cria um novo branch
+    git branch: mostra os branchs atuais e em qual estou trabalhando (com um *)
+    git chechkout NOMEdoBRANCH: muda o local de trabalho para o NOMEdoBRANCH
+    git branch -D NOMEdoBRANCH: deleta o branch
+União de branches
+    Merge:
+    Rebase:
