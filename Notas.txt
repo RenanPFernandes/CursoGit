@@ -63,5 +63,7 @@ Passando o repositório local para o GitHub
     git push -u origin master: envia todo o log e todos os arquivos do repositório local para o remoto
 Subindo modificações para o GitHub
     git push origin master: envia as alteraçoes do repositorio local master para o remoto origin
-
+Clonando repositórios remotos (git clone)
+    git clone git@github.com:RenanPFernandes/CursoGit.git NovoNomePasta: vai copiar todo o repositório remoto do link para um repositório local
+        Esse comando é feito na pasta onde vai ficar o novo repositório
 
