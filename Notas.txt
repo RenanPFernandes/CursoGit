@@ -53,6 +53,12 @@ git reset --TYPE HASH: desfaz um commit feito APÓS a HASH! Ou seja, se quer remo
     2) --mixed: some com o commit da HASH, retirando o arquivo da staged, mas mantendo as alterações locais, ou seja, modified
     3) --hard: BALEFIRE NO COMMIT! O Commit deixa de existir e as alterações também
 
-
-
+IV) GitHub
+Chave SSH: criado um arquivo id_rsa.pub que deve ser copiado para o GitHub, na parte de Settings > SSH Key.
+    Permite git push etc do GitHub
+    É necessário uma chave dessa para cada computador que vai acessar o GitHub
+Acessando o repositório remoto do GitHub
+    git remote add origin git@github.com:RenanPFernandes/CursoGit.git (tem que ser feito na pasta do repositório local do Git)
+Passando o repositório local para o GitHub
+    git push -u origin master: envia todo o log e todos os arquivos do repositório local para o remoto
 
