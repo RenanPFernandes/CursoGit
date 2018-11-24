@@ -85,4 +85,4 @@ União de branches
     Rebase: move o commit de um branch para a "fila" dos commits do outro branch, deixando tudo linear (processo de fastfoward). Desse modo, os branchs passam a apontar para o mesmo commit
        Contra: perde ordem cronológica
        Pró: evita commits extras e log linear
-       TESTE
+       git rebase NOMEdoBRANCH: comando dado no branch que se deseja juntar tudo (o master por exemplo) e que faz o rebase com o NOMEdoBRANCH
