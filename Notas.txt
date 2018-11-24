@@ -31,3 +31,4 @@ git commit: dá o commit das atuais alterações etc, criando o snapshot
           Mensagem: Comentário do commit
     3) se der commit sem antes ter dado o add das moficições, emite um erro avisando "Changes not staged for commit"e não faz nada
     4) 
+git log: emite o log dos commits do projeto
