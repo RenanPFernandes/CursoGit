@@ -93,7 +93,11 @@ gitignore: serve para ignorar arquivos que não devem aparecer como untracked
 
 https://github.com/github/gitignore > site com templates que podem ser ignorados por cada aplicação e linguagem
 
-git stash: salva as alterações atuais para commit futuro.
+git stash: salva as alterações atuais para commit futuro, como WIP (Work In Progress)
 git stach apply: retorna as alterações salvas no stash
 git stash list: lista dos stasheds
 git stash clear: deleta os stashes
+
+Criando ALIAS (atalhos de comando)
+       git config --global alias.NOME COMANDO: salva no alias NOME o COMANDO
+       exemplo: git config --global alias.s status
