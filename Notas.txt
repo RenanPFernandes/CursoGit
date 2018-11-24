@@ -46,6 +46,10 @@ git checkout ARQUIVO: revert das mudanças aatuais para a versão mais recente do 
 git reset HEAD ARQUIVO: remove o arquivo do staged, mas mantém as mudanças realizadas, diferentemente do checkout
     1) Se não colocar o ARQUIVO, ele faz o reset HEAD para todos os arquivos da pasta
 
+Revert
+git revert HASH: feito com o HASH que "deu problema" e desfaz esse commit, voltando para o commit imediatamente anterior, mas sem sumir com o commit. Isso permite que eu de checkout nessa HASH problemática de novo para reavaliar o que houve
+        REVERT x RESET: o reset some com o commit, ele deixa de existir. O Revert só volta para o commit anterior e o commit com problema continua existindo, podendo ser reavaliado novamente no futuro    
+
 CHECKOUT != RESET > Beware!!!! O reset não desfaz as alterações locais, o checkout desfaz
 
 git reset --TYPE HASH: desfaz um commit feito APÓS a HASH! Ou seja, se quer remover o commit XXXX, colocar a HASH do commit imediatamente anterior
@@ -105,3 +109,5 @@ Criando ALIAS (atalhos de comando)
 Tags
 git tag -a 1.0.0 -m "TESTE"
 git push origin master --tags: envia pro GitHub as tags também (ficam em Release)
+
+   
